@@ -1,0 +1,29 @@
+.food__loader{
+    display: flex;
+    justify-content: center;
+}
+.food__content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.food__card{
+    width: 350px;
+    border: solid 1px #c2c2c2;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+.food__img{
+    width: 100%;
+    pointer-events: none;
+}
+.food__title{
+    text-align: center;
+}
+.food__options{
+    display: flex;
+    justify-content: space-evenly;
+}
